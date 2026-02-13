@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_flutter/core/constants/app_colors.dart';
 
 class CustomButton extends StatelessWidget {
   final String text;
@@ -26,7 +25,7 @@ class CustomButton extends StatelessWidget {
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
             ),
           ),
-          onPressed: () => onPressed,
+          onPressed:  onPressed,
           child: Text(
             text,
             style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500,color: Colors.black),
